@@ -3,7 +3,7 @@ class Main{
     System.out.println("shine");
   }
   public static void summer( int temp ) {
-    if( temp > 80){
+    if( temp > 100){ //changed temp
       System.out.print("*");
       temp -= 1;
       summer(temp);
